@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
 
-    <div className="bg-gray-950 relative">
+    <div id="Hero" className="bg-gray-950 relative">
         <div className="mx-auto flex h-screen items-center w-9/12">   
             <div className="basis-1/2">
                 <div className="flex items-center">
@@ -23,7 +23,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="basis-1/2">
-                <img className="mx-auto" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg" alt="My Foto-lah"/>
+                <img className="mx-auto rounded-[50%] w-[70%] h-[70%]" src="catPT.jpg" alt="My Foto-lah"/>
             </div>
         </div>
     </div>

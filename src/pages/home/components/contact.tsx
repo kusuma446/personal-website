@@ -1,7 +1,7 @@
 export default function Contact() {
     return (
 
-        <div className="bg-gray-200 relative py-10">
+        <div id="Contact" className="bg-gray-200 relative py-10">
             <div className="mx-auto flex flex-row items-center w-9/12 mt-0">
                 <div className="basis-1/2">
                     <div className="flex place-items-center mt-5">

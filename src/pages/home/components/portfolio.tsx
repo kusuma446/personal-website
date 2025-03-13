@@ -1,7 +1,7 @@
 export default function Portfolio() {
     return (
 
-        <div className="bg-gray-950 relative py-10">
+        <div id="Portfolio" className="bg-gray-950 relative py-10">
             <div className="mx-auto flex items-center w-9/12 mt-0">
                 <div>
                     <div className="flex place-items-center mt-5">
@@ -17,11 +17,11 @@ export default function Portfolio() {
                             My Works
                         </h3>                  
                     </div>
-                    <div className="grid grid-cols-4 gap-10 py-10">
+                    <div className="grid grid-cols-3 gap-10 py-10">
                         <div className="shadow-lg">
                             <div className="flex flex-col items-center py-10 bg-gray-700 rounded-md">
                                 <div className="h-100 w-100">
-                                    <img className="w-full opacity-50" src="cafe.png"/>
+                                    <img className="h-[300px] w-[400px] opacity-50" src="cafe.png"/>
                                 </div>
                                 <h4 className="mt-5 text-white">
                                     Cafe Menu
@@ -31,7 +31,7 @@ export default function Portfolio() {
                         <div className="shadow-lg">
                             <div className="flex flex-col items-center py-10 bg-gray-700 rounded-md">
                                 <div className="h-100 w-100">
-                                    <img className="w-full opacity-50" src="nutlist.png"/>
+                                    <img className="h-[300px] w-[400px] opacity-50" src="nutlist.png"/>
                                 </div>
                                 <h4 className="mt-5 text-white">
                                     Nutrition List
@@ -41,7 +41,7 @@ export default function Portfolio() {
                         <div className="shadow-lg">
                             <div className="flex flex-col items-center py-10 bg-gray-700 rounded-md">
                                 <div className="h-100 w-100">
-                                    <img className="w-full opacity-50" src="potogal.png"/>
+                                    <img className="h-[300px] w-[400px] opacity-50" src="potogal.png"/>
                                 </div>
                                 <h4 className="mt-5 text-white">
                                     Photo Gallery
@@ -51,10 +51,30 @@ export default function Portfolio() {
                         <div className="shadow-lg">
                             <div className="flex flex-col items-center py-10 bg-gray-700 rounded-md">
                                 <div className="h-100 w-100">
-                                    <img className="w-full opacity-50" src="survey.png"/>
+                                    <img className="h-[300px] w-[400px] opacity-50" src="survey.png"/>
                                 </div>
                                 <h4 className="mt-5 text-white">
                                     Survey Form
+                                </h4>
+                            </div>
+                        </div>
+                        <div className="shadow-lg">
+                            <div className="flex flex-col items-center py-10 bg-gray-700 rounded-md">
+                                <div className="h-100 w-100">
+                                    <img className="h-[300px] w-[400px] opacity-50" src="ballance.png"/>
+                                </div>
+                                <h4 className="mt-5 text-white">
+                                    Balance Sheet
+                                </h4>
+                            </div>
+                        </div>
+                        <div className="shadow-lg">
+                            <div className="flex flex-col items-center py-10 bg-gray-700 rounded-md">
+                                <div className="h-100 w-100">
+                                    <img className="h-[300px] w-[400px] opacity-50" src="quiz.png"/>
+                                </div>
+                                <h4 className="mt-5 text-white">
+                                    Quiz Form
                                 </h4>
                             </div>
                         </div>

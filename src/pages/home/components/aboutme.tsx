@@ -1,7 +1,7 @@
 export default function AboutMe() {
     return (
        
-    <div className="bg-gray-800 relative py-10">
+    <div id="Me" className="bg-gray-800 relative py-10">
         <div className="mx-auto flex items-center w-9/12 mt-0">
             <div>
                 <div className="flex place-items-center mt-5">
@@ -57,6 +57,45 @@ export default function AboutMe() {
                             </h4>
                             <p className="text-center font-extralight text-sm mt-2">
                                 Programming language that defines the structure and meaning of content on a web page. It's the foundation of the web, and is used by all major web browsers.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="shadow-lg">
+                        <div className="flex flex-col items-center py-10">
+                            <div className="h-10 w-10">
+                                <img className="w-full" src="nextjs2.svg"/>
+                            </div>
+                            <h4 className="mt-5 text-white">
+                                NEXT JS
+                            </h4>
+                            <p className="text-center font-extralight text-sm mt-2">
+                                Next.js is a framework built on top of React, a JavaScript library for building user interfaces. It provides a foundation for creating web applications, handling tooling, configuration, and offering additional features and optimizations. 
+                            </p>
+                        </div>
+                    </div>
+                    <div className="shadow-lg">
+                        <div className="flex flex-col items-center py-10">
+                            <div className="h-10 w-10">
+                                <img className="w-full" src="typescript.svg"/>
+                            </div>
+                            <h4 className="mt-5 text-white">
+                                TYPESCRIPT
+                            </h4>
+                            <p className="text-center font-extralight text-sm mt-2">
+                                TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="shadow-lg">
+                        <div className="flex flex-col items-center py-10">
+                            <div className="h-10 w-10">
+                                <img className="w-full" src="react.svg"/>
+                            </div>
+                            <h4 className="mt-5 text-white">
+                                REACT
+                            </h4>
+                            <p className="text-center font-extralight text-sm mt-2">
+                                React also known as React.js or ReactJS is a free and open-source front-end JavaScript library that aims to make building user interfaces based on components more "seamless".
                             </p>
                         </div>
                     </div>

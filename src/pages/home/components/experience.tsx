@@ -1,7 +1,7 @@
 export default function Experience() {
     return (
 
-        <div className="bg-gray-800 relative py-10">
+        <div id="Experience" className="bg-gray-800 relative py-10">
             <div className="mx-auto flex flex-row items-center w-9/12 mt-0">
                 <div>
                     <div className="flex place-items-center mt-5">
